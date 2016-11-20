@@ -1,0 +1,62 @@
+/* ------------------------------
+　　ボタン
+------------------------------ */
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	border: 0;
+	border-radius: 4px;
+	background: #CCC;
+}
+.btn:hover,
+.btn:visited,
+.btn:active,
+.btn:focus {
+	color: #333;
+	text-decoration: none;
+}
+
+.btn-tomato {
+	display: inline-block;
+	padding: 10px 20px;
+	border: 0;
+	border-radius: 4px;
+	background: tomato;
+}
+.btn-tomato:hover,
+.btn-tomato:visited,
+.btn-tomato:active,
+.btn-tomato:focus {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.btn-skyblue {
+	display: inline-block;
+	padding: 10px 20px;
+	border: 0;
+	border-radius: 4px;
+	background: skyblue;
+}
+.btn-skyblue:hover,
+.btn-skyblue:visited,
+.btn-skyblue:active,
+.btn-skyblue:focus {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.btn-lime {
+	display: inline-block;
+	padding: 10px 20px;
+	border: 0;
+	border-radius: 4px;
+	background: lime;
+}
+.btn-lime:hover,
+.btn-lime:visited,
+.btn-lime:active,
+.btn-lime:focus {
+	color: #FFF;
+	text-decoration: none;
+}

@@ -1,0 +1,34 @@
+/* ------------------------------
+　　レイアウト
+------------------------------ */
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0 $layout-gutter;
+}
+
+.row {
+	margin: 0 -15px;
+}
+
+.main {
+	float: left;
+	width: 100%;
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+.side {
+	float: left;
+	width: 100%;
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+
+@media (min-width : $breakpoint-md-min) {
+	.main {
+		width: $layout-main-width;
+	}
+	.side {
+		width: (100% - $layout-main-width);
+	}
+}

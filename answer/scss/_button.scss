@@ -1,0 +1,16 @@
+/* ------------------------------
+　　ボタン
+------------------------------ */
+.btn {
+	@include btn($color: #333,$bg-color: #CCC)
+}
+
+.btn-tomato {
+	@include btn($color: #FFF,$bg-color: $primary-color)
+}
+.btn-skyblue {
+	@include btn($color: #FFF,$bg-color: $secondary-color)
+}
+.btn-lime {
+	@include btn($color: #FFF,$bg-color: $tertiary-color)
+}

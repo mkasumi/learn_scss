@@ -1,0 +1,22 @@
+// ------------------------------
+// プレースホルダー
+// ------------------------------
+@mixin placeholder($color){
+	 &:-moz-input-placeholder {
+		color: $color;
+	}
+	  &:-ms-input-placeholder {
+		color: $color;
+	 }
+	 &::-webkit-input-placeholder  {
+		color: $color;
+	}
+}
+
+
+// ------------------------------
+// ボタン
+// ------------------------------
+@mixin btn($color,$bg-color) {
+/* ここに記入します */
+}

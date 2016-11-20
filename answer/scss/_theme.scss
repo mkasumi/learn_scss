@@ -1,0 +1,10 @@
+/* ------------------------------
+　　テーマ
+------------------------------ */
+$themelist: tomato, skyblue, lime;
+
+@each $theme in $themelist {
+	.theme-#{$theme} {
+		border-top: 10px solid #{$theme};
+	}
+}
